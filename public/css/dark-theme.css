@@ -1,0 +1,68 @@
+/* Dark Theme CSS */
+body {
+  background-color: #121212; /* Dark background color */
+  color: #ffffff; /* Light text color */
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+  background-color: #333; /* Dark header background color */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Logo styles */
+.logo {
+  width: 100px; /* Set the width of your logo */
+  height: 100px; /* Set the height of your logo */
+  margin: 0 auto; /* Center the logo horizontally */
+}
+
+/* Form styles */
+form {
+  background-color: #1e1e1e; /* Dark form background color */
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  margin: 0 auto; /* Center the form horizontally */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow */
+}
+
+label {
+  color: #ffffff; /* Light text color for labels */
+}
+
+input[type="email"],
+textarea {
+  background-color: #333; /* Dark input background color */
+  color: #ffffff; /* Light text color for inputs */
+  border: 1px solid #555; /* Dark border color for inputs */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #007bff; /* Blue submit button color */
+  color: #ffffff; /* Light text color for the button */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Custom styles for the logo */
+.custom-logo {
+  background-image: url("https://media.licdn.com/dms/image/D4E0BAQEPhtZn3l1uaw/company-logo_200_200/0/1687752345247?e=2147483647&v=beta&t=1Le5WBm1_rfZOB07hr3TH0janHRpPdnLOq5tUj0igMo"); /* Replace with your company logo image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Media query for responsive design (adjust as needed) */
+@media screen and (max-width: 768px) {
+  form {
+    width: 90%; /* Adjust the width for smaller screens */
+  }
+}
